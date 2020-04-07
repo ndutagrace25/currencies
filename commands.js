@@ -6,11 +6,8 @@ const program = require("commander");
 // import inquirer that helps in generating and defining CLI input questions
 const { prompt } = require("inquirer");
 
-const {
-  listCountries,
-  postCSVCurrencyDetails,
-  getCurrency,
-} = require(".");
+// import necessary functions from the index file
+const { listCountries, postCSVCurrencyDetails, getCurrency } = require(".");
 
 // ISO 4217 code question
 const currencyquestion = [
