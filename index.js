@@ -21,7 +21,6 @@ const postCSVCurrencyDetails = () => {
             )
         )
         .then((jsonArrayObject) => {
-            //   console.log(jsonArrayObject);
             jsonArrayObject.map((country) => {
                 let dataToSave = {
                     country: country.Country,
